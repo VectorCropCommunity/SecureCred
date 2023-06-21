@@ -6,7 +6,7 @@
 [![licence](https://img.shields.io/github/license/VectorCropCommunity/SecureCred)](#)
 
 
-![open](https://github.com/VectorCropCommunity/SecureCred/blob/master/.github/media/social.png)
+![open](.github/ISSUE_TEMPLATE/media/social.png)
 
 ## SecureCrud
 
