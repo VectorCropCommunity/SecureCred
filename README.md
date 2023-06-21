@@ -1,28 +1,17 @@
-😄🔒📜🔐📱 SecureCrud - Enhancing Password Security! 🚀💪
+🔥🚀🔒 **SecureCrud - Protecting Your Passwords!** 🔒🚀🔥
 
-![open](https://repository-images.githubusercontent.com/654454192/303ad2d6-d5e6-4597-bc74-ada66c924695)
+[![powered by](https://img.shields.io/badge/powered_by-VectorCrop_Community-red)](#)
+[![repo size](https://img.shields.io/github/repo-size/VectorCropCommunity/SecureCred)](#)
+[![version](https://img.shields.io/github/v/tag/VectorCropCommunity/SecureCred)](#)
+[![contributors](https://img.shields.io/github/contributors/VectorCropCommunity/SecureCred)](#)
+[![language](https://img.shields.io/github/languages/top/VectorCropCommunity/SecureCred)](#)
+[![licence](https://img.shields.io/github/license/VectorCropCommunity/SecureCred)](#)
 
-SecureCrud is a head-to-toe open source project developed by the Vector Crop community. 🌱🤝 This flexible Android app enhances the security of stored passwords. It offers a comprehensive, flexible environment with tools, technologies, encryption, and community resources for developers and common folks to use in their day-to-day lives. 📲🔒✨
+![open](.github/media/social.png)
 
-### Vector Crop Community 🌈🌍
+## SecureCrud - The Shield for Your Passwords! 🛡️🔒
 
-Welcome to our vibrant and holistic open source community! We're dedicated to fostering collaboration and innovation. At Vector Crop, we believe that the power of collaboration, creativity, and innovation can transform the world with incredibly useful technologies. 💡🌟🤝
-
-##### Our Mission 🎯
-
-Vector Crop's mission is to provide an environment where passionate developers, creative designers, technical enthusiasts, and motivated individuals can come together to ponder and share their knowledge and thoughts. Together, we can contribute to meaningful applications and shape the future of open source technology! 🚀💻🧠
-
-##### Our Vision 👀🌌
-
-At Vector Crop, we aim to help and guide motivated developers towards the path of success. 🌟🌠 Our community-driven initiatives lead the way, and we encourage everyone to share valuable ideas, provide feedback on open source projects, and collaborate with us to implement amazing applications! Join us on this exciting journey! 🤝💪👏
-
-##### Our Goals 🎯🚀
-
-At Vector Crop, we push beyond limits to make the impossible possible. 🌟✨ Together, we can achieve great things!
-
-## SecureCrud - The Superhero for Passwords! 🦸‍♂️🔐
-
-SecureCrud is an open source project that benefits both developers and regular users who need a secure place to store their passwords. 🤓🔐 Whether you have multiple accounts on various platforms or you're a developer with project-related accounts that need to be handled during deployment, managing passwords can be a daunting task. That's where SecureCrud comes to the rescue! This incredible application enables you to store all your passwords securely and encrypted. 🛡️🔒💪
+SecureCrud is an open source project that provides a secure solution for both developers and regular users who need a reliable place to store their passwords. 😎🔐 Whether you have multiple accounts across various platforms or you're a developer with numerous project-related accounts, SecureCrud has got your back! No more hassle when handing over credentials to clients during project deployment. Say goodbye to storing passwords in insecure places like Google Keep or Microsoft Authenticator. SecureCrud is here to save the day! 🦸‍♂️🔒💪
 
 ### Features ✨🔒
 
@@ -31,30 +20,30 @@ SecureCrud is an open source project that benefits both developers and regular u
 
 ##### Structural Way 📊🔒
 
-SecureCrud is designed to efficiently manage multiple application password fields using the following structure:
+SecureCrud is designed to efficiently handle multiple application password fields with the following structure:
 
-- It starts with a default category called "Personal," where all your credentials are stored.
-- You can create custom categories based on your preferences, giving you the flexibility to organize your passwords.
-- Within each category, applications and websites are grouped in ascending order for easy navigation.
+- It starts with a default category called "Personal," where you can store all your credentials.
+- Customize your experience by creating custom categories according to your preferences.
+- Within each category, applications and websites are grouped in ascending order for easy management.
 
 ##### Advanced Encryption 🔐🔒
 
-SecureCrud employs a highly secure method of storing and retrieving credentials. It utilizes advanced encryption algorithms, providing reliable protection for your sensitive data. When you submit a new entry, the password is encrypted using cutting-edge algorithms and securely stored. 💂‍♂️🔒🔐
+SecureCrud ensures a high level of security for your stored credentials. It employs advanced encryption algorithms, making it a reliable choice for protecting sensitive data. When you submit a new entry, the password is encrypted using cutting-edge algorithms and securely stored. Your passwords are in safe hands! 💂‍♂️🔒🔐
 
-## How To Contribute 🤝🎉
+#### Frameworks 🛠️
 
-We welcome contributions with open arms! 🙌✨ If you're interested in making SecureCrud even better, follow these steps:
+[![flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](#)
+[![react](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
 
-1. Fork the repository.
-2. Create a new branch for your contributions.
-3. Make your changes and improvements.
-4. Test everything to ensure it works flawlessly.
-5. Submit a pull request, and our team will review
+#### Links 🔗
 
- your contribution.
+[![figma](https://skillicons.dev/icons?i=figma)](https://www.figma.com/file/I10VRUqyXnNIwdVxrLTSjT/SecureCred-UI?type=design&node-id=0-1&t=tEyDPLQzOh5zBsgD-0)
+[![github](https://skillicons.dev/icons?i=github)](https://github.com/VectorCropCommunity/SecureCred)
 
-Remember, your contributions help make SecureCrud a powerful tool for password security! Together, let's build a safer digital world! 💪🌐🔒
+[![licence](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
+[![licence](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)](#)
+[![licence](https://camo.githubusercontent.com
 
-## Get Involved! 🌟🔐
+/1ada9a29098638fc415b2738ecab9ac30d5c829423439503581008838f29a372/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f70656e253230536f75726365253230496e69746961746976652d3344413633392e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d4f70656e2d536f757263652d496e6974696174697665266c6f676f436f6c6f723d7768697465)](#)
 
-Join the Vector Crop community and become part of the password security revolution! 🚀🔐🌍 Share your ideas, collaborate with like-minded individuals, and help shape the future of open source technology. Let's make the impossible possible! 💪🚀🔐
+Secure your passwords with SecureCrud today! Available on Android and iOS. Download now and experience password peace of mind! 🗝️🔒📲
