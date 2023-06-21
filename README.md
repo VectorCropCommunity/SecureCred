@@ -30,6 +30,64 @@ SecureCrud is designed to efficiently handle multiple application password field
 
 SecureCrud ensures a high level of security for your stored credentials. It employs advanced encryption algorithms, making it a reliable choice for protecting sensitive data. When you submit a new entry, the password is encrypted using cutting-edge algorithms and securely stored. Your passwords are in safe hands! 💂‍♂️🔒🔐
 
+🎉🤝 **Contribution Guide - Join the SecureCrud Community!** 🤝🎉
+
+We appreciate your interest in contributing to SecureCrud! Together, we can make password security even better! Here's how you can get involved:
+
+## How to Contribute 🙌🌟
+
+1. Fork the SecureCrud repository to your GitHub account.
+2. Clone the forked repository to your local machine.
+
+   ```
+   git clone https://github.com/YourUsername/SecureCrud.git
+   ```
+
+3. Create a new branch for your feature or bug fix.
+
+   ```
+   git checkout -b feature/your-feature-name
+   ```
+
+4. Make the necessary changes and improvements to the codebase.
+5. Test your changes thoroughly.
+6. Commit your changes with descriptive commit messages.
+
+   ```
+   git commit -m "Add feature/fix for XYZ"
+   ```
+
+7. Push your changes to your forked repository.
+
+   ```
+   git push origin feature/your-feature-name
+   ```
+
+8. Open a pull request from your forked repository to the main SecureCrud repository.
+9. Provide a detailed description of your changes in the pull request.
+10. Wait for the project maintainers to review your contribution.
+
+Congratulations! You have made your contribution to SecureCrud! Thank you for helping us improve password security for everyone! 🚀🔒🤝
+
+## Code Style Guidelines 🌟📝
+
+To maintain consistency throughout the project, please follow these code style guidelines:
+
+- Use meaningful variable and function names.
+- Write clear and concise comments.
+- Format your code properly and adhere to the existing code style.
+- Write unit tests for new features or bug fixes whenever possible.
+- Keep the codebase clean and free of unnecessary dependencies.
+
+## Community and Communication 🌍💬
+
+Join our community and stay connected with other contributors:
+
+- Join our [WhatsApp](https://chat.whatsapp.com/LrJBCBUg1czLVr0oSvVXy6) group to chat with other community members and get help.
+- Participate in discussions and share your ideas on our [GitHub Discussions](https://github.com/VectorCropCommunity/SecureCred/discussions) page.
+
+We value your feedback and ideas. Together, we can create a more secure and user-friendly password management solution! 🙌🔒💪
+
 #### Frameworks 🛠️
 
 [![flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](#)
@@ -47,3 +105,9 @@ SecureCrud ensures a high level of security for your stored credentials. It empl
 /1ada9a29098638fc415b2738ecab9ac30d5c829423439503581008838f29a372/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f70656e253230536f75726365253230496e69746961746976652d3344413633392e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d4f70656e2d536f757263652d496e6974696174697665266c6f676f436f6c6f723d7768697465)](#)
 
 Secure your passwords with SecureCrud today! Available on Android and iOS. Download now and experience password peace of mind! 🗝️🔒📲
+
+## License 📜
+
+SecureCrud is released under the [MIT License](LICENSE). By contributing to this project, you agree to make your contributions available under this license.
+
+Let's make password security a top priority! Happy contributing! 🎉🔒🚀
