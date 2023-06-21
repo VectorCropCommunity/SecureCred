@@ -29,7 +29,7 @@ This application is planed in order to be very efficient in order to maintain ma
 
 This application carries a very secured way of storing and retrieving the credentials. This included using the advanced encryption algorithm which is reliable to make use of it. Once the user submit the new entry into the application, the password gets encrypted by some advanced algorithm and gets stored.
 
-#### languages
+#### Frame works
 [![flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](#)
 [![react](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
 
