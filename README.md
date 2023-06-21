@@ -6,7 +6,7 @@
 [![licence](https://img.shields.io/github/license/VectorCropCommunity/SecureCred)](#)
 
 
-![open](https://repository-images.githubusercontent.com/654454192/e6fd406d-1022-4c3c-9e6f-f6d7b6059093)
+![open](https://github.com/VectorCropCommunity/SecureCred/blob/master/media/social.png)
 
 ## SecureCrud
 
@@ -36,10 +36,6 @@ This application carries a very secured way of storing and retrieving the creden
 #### Links
 [![figma](https://skillicons.dev/icons?i=figma)](https://www.figma.com/file/I10VRUqyXnNIwdVxrLTSjT/SecureCred-UI?type=design&node-id=0-1&t=tEyDPLQzOh5zBsgD-0)
 [![github](https://skillicons.dev/icons?i=github)](https://github.com/VectorCropCommunity/SecureCred)
-
-
-
-
 
 
 [![licence](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
