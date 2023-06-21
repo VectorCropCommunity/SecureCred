@@ -4,32 +4,32 @@ SecureCrud is a head-to-toe open source projects developed by vector crop commun
 
 ### Vector Crop Community
 
-A wide range of vibrant and holistic open source community dedicated to fostering the collaboration and innovation. Here in Vector Crop we believe that the power of the collabrative possession with creativeness and innovation transforms the entire world with more useful technologies.
+A wide range of vibrant and holistic open source community dedicated to fostering the collaboration and innovation. Here in Vector Crop we believe that the power of the collaborative possession with creativeness and innovation transforms the entire world with more useful technologies.
 
 ##### Our Mission
 
-Vector Crop's mission is to deliver the environment where hot-blooded developers, creative designers, technical and motivated enthusiasts can come together to ponder and share their knowledge and thoughts which can be used to contribe to a meaningful application to shape their future towards the open source technology.
+Vector Crop's mission is to deliver the environment where hot-blooded developers, creative designers, technical and motivated enthusiasts can come together to ponder and share their knowledge and thoughts which can be used to contrib to a meaningful application to shape their future towards the open source technology.
 
 ##### Our Vision
 
-Vector Crop's vision is to help and make the motivated developers towards the path of success. This can be lead by our community driven initiatives. We as a community encourages all people to share their valuable idea, the feedbacks of the open source projects and to collabrate with us in implementing the application.
+Vector Crop's vision is to help and make the motivated developers towards the path of success. This can be lead by our community driven initiatives. We as a community encourages all people to share their valuable idea, the feedbacks of the open source projects and to collaborate with us in implementing the application.
 
 ##### Our Goals
 
-Vector Crop's goals are to push beyond the limit to make this possible which seems to be impossble.
+Vector Crop's goals are to push beyond the limit to make this possible which seems to be impossible.
 
 ## SecureCrud
 
-Secure curd is an open source project which can be helpful for both the developers and the common people who need to store the password securely somewhere. People may have different accounts in each and every platforms especially the developers will have the most along with their project related accounts which need to be handovered to the client at time of deployment of the project. Managing these many password can be a difficult task, need to store these password somewhere on the mobile like google keeps, microsoft authenticator. But we can't ensure the safeness in it. This **Secure Curd** application will enable such a feature to store all the passwords in secure and encrypted manner.
+Secure curd is an open source project which can be helpful for both the developers and the common people who need to store the password securely somewhere. People may have different accounts in each and every platforms especially the developers will have the most along with their project related accounts which need to be handovers to the client at time of deployment of the project. Managing these many password can be a difficult task, need to store these password somewhere on the mobile like google keeps, microsoft authenticator. But we can't ensure the safeness in it. This **Secure Curd** application will enable such a feature to store all the passwords in secure and encrypted manner.
 
 ### Features
 
-- Sturctural way
+- Structural way
 - Advanced Encryption
 
 ##### Structural Way
 
-This application is planed inorder to be very efficient in order to maintain many application password fields as follows,
+This application is planed in order to be very efficient in order to maintain many application password fields as follows,
 
 - Making a default category called personal where all the credentials will be stored into it.
 - There is a customizable option where the user can create a custom category and get proceed with.
@@ -37,4 +37,4 @@ This application is planed inorder to be very efficient in order to maintain man
 
 ##### Advanced Encryption
 
-This application carries a very secured way of storing and retriving the credentials. This included using the advanced encryption algorithm which is reliable to make use of it. Once the user submit the new entry into the application, the password gets encrypted by some advanced algorithm and gets stored.
+This application carries a very secured way of storing and retrieving the credentials. This included using the advanced encryption algorithm which is reliable to make use of it. Once the user submit the new entry into the application, the password gets encrypted by some advanced algorithm and gets stored.
