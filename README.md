@@ -1,3 +1,7 @@
+[![open source](https://img.shields.io/badge/Open%20Source%20Initiative-3DA639.svg?style=for-the-badge&logo=Open-Source-Initiative&logoColor=white)](#)
+[![flutter](https://img.shields.io/badge/Flutter-02569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](#)
+[![My Skills](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
+
 ![open](https://repository-images.githubusercontent.com/654454192/e6fd406d-1022-4c3c-9e6f-f6d7b6059093)
 
 SecureCrud is a head-to-toe open source projects developed by vector crop community. This is a flexible android app which enhance the security of the password that we store here. It has a comprehensive, flexible environment of tools, technologies, encryption and community resources which lets the developers and the common peoples to make use of this application for their day-to-day life.
@@ -38,3 +42,8 @@ This application is planed in order to be very efficient in order to maintain ma
 ##### Advanced Encryption
 
 This application carries a very secured way of storing and retrieving the credentials. This included using the advanced encryption algorithm which is reliable to make use of it. Once the user submit the new entry into the application, the password gets encrypted by some advanced algorithm and gets stored.
+
+
+#### links
+[![My Skills](https://skillicons.dev/icons?i=figma)](https://www.figma.com/file/I10VRUqyXnNIwdVxrLTSjT/SecureCred-UI?type=design&node-id=0-1&t=tEyDPLQzOh5zBsgD-0)
+[![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/VectorCropCommunity/SecureCred)
