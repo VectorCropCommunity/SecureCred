@@ -11,7 +11,7 @@
 
 ## SecureCrud - The Shield for Your Passwords! 🛡️🔒
 
-SecureCrud is an open source project that provides a secure solution for both developers and regular users who need a reliable place to store their passwords. 😎🔐 Whether you have multiple accounts across various platforms or you're a developer with numerous project-related accounts, SecureCrud has got your back! No more hassle when handing over credentials to clients during project deployment. Say goodbye to storing passwords in insecure places like Google Keep or Microsoft Authenticator. SecureCrud is here to save the day! 🦸‍♂️🔒💪
+SecureCrud is an open source project that provides a secure solution for both developers and regular users who need a reliable place to store their passwords. 😎🔐 Whether you have multiple accounts across various platforms or you're a developer with numerous project-related accounts, SecureCrud has got your back! No more hassle when handing over credentials to clients during project deployment.  Say goodbye to storing passwords in insecure places like sticky notes or your browser. SecureCrud is here to save the day! 🦸‍♂️🔒💪
 
 ### Features ✨🔒
 
