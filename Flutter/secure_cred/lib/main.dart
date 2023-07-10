@@ -5,16 +5,17 @@ import 'package:secure_cred/src/securecred_app.dart';
 import 'package:secure_cred/utils/shared_preference/shared_preference.dart';
 
 Future<void> main() async {
-   WidgetsFlutterBinding.ensureInitialized();
-   await setPreferredOrientations();
-   
-  // await configureInjection();
-   await Prefs.init();
-  
+  WidgetsFlutterBinding.ensureInitialized();
+  await setPreferredOrientations();
 
-  runApp(const AppProvidersLayer(
+  // await configureInjection();
+  await Prefs.init();
+
+  runApp(
+    const AppProvidersLayer(
       child: SecureCredApp(),
-    ),);
+    ),
+  );
 }
 
 Future<void> setPreferredOrientations() {

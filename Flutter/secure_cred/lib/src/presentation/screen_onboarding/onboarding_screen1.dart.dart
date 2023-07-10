@@ -20,24 +20,24 @@ class ScreenStartOnboarding extends StatelessWidget {
               width: double.infinity,
               fit: BoxFit.fill,
             ),
-            const SizedBox(
-              height: 70,
-            ),
+            // const SizedBox(
+            //   height: 70,
+            // ),
             Image.asset(KImage.threeDotIconImage1),
-            const SizedBox(
-              height: 30,
-            ),
+            // const SizedBox(
+            //   height: 30,
+            // ),
             Text(
               'Secure your secrets\nEmpower your development',
               style: GoogleFonts.poppins(
                   fontWeight: FontWeight.w600, fontSize: 20),
               textAlign: TextAlign.center,
             ),
-            const SizedBox(
-              height: 60,
-            ),
+            // const SizedBox(
+            //   height: 60,
+            // ),
             InkWell(
-              onTap: () => Navigator.pushNamed(context, Routes.onboarding),
+              onTap: () => Routes.pushNamed(Routes.onboarding),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:secure_cred/src/presentation/screen_on_boarding/onboarding_screen1.dart.dart';
+import 'package:secure_cred/src/presentation/authentication/ScreenSignin.dart';
+import 'package:secure_cred/src/presentation/authentication/ScreenSignup.dart';
+import 'package:secure_cred/src/presentation/screen_onboarding/onboarding_screen1.dart.dart';
 import 'package:secure_cred/src/presentation/splashScreen/screen_splash.dart';
-import '../src/presentation/screen_on_boarding/onboarding_builder.dart.dart';
+import '../src/presentation/screen_onboarding/onboarding_builder.dart.dart';
 import '../src/securecred_app.dart';
 
 class Routes {
@@ -17,14 +19,14 @@ class Routes {
   static const String category = '/category';
   static const String splash = '/splash';
   static const String onboardingStart = '/onboardingStart';
-    static const String onboarding = '/onboarding';
+  static const String onboarding = '/onboarding';
 
-  static Map<String,Widget Function(BuildContext)> routes = {
-splash:(_) =>const ScreenSplash(),
-onboardingStart:(_) =>const ScreenStartOnboarding(),
-onboarding:(_) =>const ScreenOnboarding() 
-    // login: (_) => const ScreenLogin(),
-    // signup: (_) => const ScreenSignup(),
+  static Map<String, Widget Function(BuildContext)> routes = {
+    splash: (_) => const ScreenSplash(),
+    onboardingStart: (_) => const ScreenStartOnboarding(),
+    onboarding: (_) => const ScreenOnboarding(),
+    login: (_) => const ScreenSignin(),
+    signup: (_) => const ScreenSignup(),
     // profile: (_) => const ScreenProfile(),
     // forget_password: (_) => const ScreenForgetPassword(),
     // reset_password: (_) => const ScreenResetPassword(),
@@ -41,6 +43,17 @@ onboarding:(_) =>const ScreenOnboarding()
     if (ModalRoute.of(navigatorKey.currentState!.context)?.settings.name !=
         route) {
       Navigator.pushNamed(
+        navigatorKey.currentState!.context,
+        route,
+        arguments: arguments,
+      );
+    }
+  }
+
+  static pushReplacementNamed(String route, {arguments}) {
+    if (ModalRoute.of(navigatorKey.currentState!.context)?.settings.name !=
+        route) {
+      Navigator.pushReplacementNamed(
         navigatorKey.currentState!.context,
         route,
         arguments: arguments,

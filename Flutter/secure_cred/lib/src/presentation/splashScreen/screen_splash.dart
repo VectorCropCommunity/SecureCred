@@ -1,7 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:secure_cred/src/core/images.dart';
-import '../../../utils/router_helper.dart';
+import 'package:secure_cred/utils/router_helper.dart';
+import 'package:secure_cred/utils/shared_preference/shared_preference.dart';
+import 'package:secure_cred/utils/shared_preference/shared_preference_key.dart';
 
 class ScreenSplash extends StatefulWidget {
   const ScreenSplash({super.key});
@@ -22,10 +24,18 @@ class _ScreenSplashState extends State<ScreenSplash> {
     Timer.periodic(const Duration(milliseconds: 100), (timer) {
       setState(() {
         if (progressValue < 1.0) {
-          progressValue += 0.01;
+          progressValue += 0.05;
         } else {
           timer.cancel();
-          Navigator.pushNamed(context, Routes.onboardingStart);
+          final onBoardingViewed = false;
+          // Prefs.getBool(SharedPreferenceKeys.onBoardingViewed);
+          Routes.pushReplacementNamed(
+            onBoardingViewed
+                ? Prefs.getString(SharedPreferenceKeys.userToken).isEmpty
+                    ? Routes.login
+                    : Routes.home
+                : Routes.onboardingStart,
+          );
         }
       });
     });
@@ -51,22 +61,21 @@ class _ScreenSplashState extends State<ScreenSplash> {
               ],
             ),
           ),
-          child: Column( 
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
             Image.asset(
               KImage.logoSecureCred,
               width: screenWidth / 2.8,
               height: screenHight / 3.1,
             ),
             SizedBox(
-              width: screenWidth/5,
+              width: screenWidth / 5,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(5.0),
                 child: LinearProgressIndicator(
                   value: progressValue,
                   backgroundColor: const Color.fromRGBO(217, 217, 217, 0.45),
-                  valueColor: const AlwaysStoppedAnimation<Color>(Color.fromRGBO(217, 217, 217, 1)),
+                  valueColor: const AlwaysStoppedAnimation<Color>(
+                      Color.fromRGBO(217, 217, 217, 1)),
                 ),
               ),
             ),

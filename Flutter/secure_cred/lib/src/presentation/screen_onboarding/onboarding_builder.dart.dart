@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:secure_cred/src/presentation/screen_on_boarding/widgets/onboarding_screen2.dart';
-import 'package:secure_cred/src/presentation/screen_on_boarding/widgets/onboarding_screen3.dart';
+import 'package:secure_cred/src/presentation/screen_onboarding/widgets/onboarding_screen2.dart';
+import 'package:secure_cred/src/presentation/screen_onboarding/widgets/onboarding_screen3.dart';
+import 'package:secure_cred/utils/router_helper.dart';
+import 'package:secure_cred/utils/shared_preference/shared_preference.dart';
+import 'package:secure_cred/utils/shared_preference/shared_preference_key.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-
 
 class ScreenOnboarding extends StatelessWidget {
   const ScreenOnboarding({super.key});
@@ -28,6 +30,9 @@ class ScreenOnboarding extends StatelessWidget {
                 ],
               ),
             ),
+            const SizedBox(
+              height: 10,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
@@ -41,14 +46,18 @@ class ScreenOnboarding extends StatelessWidget {
                   ),
                 ),
                 TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'Skip',
-                      style: GoogleFonts.poppins(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w500,
-                          color: Colors.black),
-                    )),
+                  onPressed: () {
+                    Prefs.setBool(SharedPreferenceKeys.onBoardingViewed, true);
+                    Routes.pushNamed(Routes.login);
+                  },
+                  child: Text(
+                    'Skip',
+                    style: GoogleFonts.poppins(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.black),
+                  ),
+                ),
               ],
             ),
             const SizedBox(

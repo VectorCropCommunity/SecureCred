@@ -30,9 +30,9 @@ class ScreenOnboardingWidget2 extends StatelessWidget {
             )
           ],
         ),
-        const SizedBox(
-          height: 30,
-        ),
+        // const SizedBox(
+        //   height: 30,
+        // ),
         Text(
           'Your Password is Safe Here.',
           style: GoogleFonts.poppins(
@@ -41,9 +41,9 @@ class ScreenOnboardingWidget2 extends StatelessWidget {
           ),
           textAlign: TextAlign.center,
         ),
-        const SizedBox(
-          height: 15,
-        ),
+        // const SizedBox(
+        //   height: 15,
+        // ),
         Text(
           'Lets create an secure Lorem ipsum dolor sit\namet, consectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et\ndolore magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco\nlaboris nisi ut aliquip ex ea commodo.',
           style: GoogleFonts.poppins(
@@ -53,7 +53,6 @@ class ScreenOnboardingWidget2 extends StatelessWidget {
           ),
           textAlign: TextAlign.center,
         ),
-       
       ]),
     );
   }
