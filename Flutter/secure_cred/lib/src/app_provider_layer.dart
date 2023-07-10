@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'domain/core/di/injectable.dart';
 
 class AppProvidersLayer extends StatelessWidget {
   final Widget child;
@@ -10,11 +8,6 @@ class AppProvidersLayer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiBlocProvider(
-      providers: [
-        
-      ],
-      child: child,
-    );
+    return child;
   }
 }

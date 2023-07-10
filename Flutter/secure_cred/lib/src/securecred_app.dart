@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:secure_cred/utils/router_helper.dart';
+import 'package:secure_cred/utils/shared_preference/shared_preference_key.dart';
+
+import '../utils/shared_preference/shared_preference.dart';
+import 'app_theme.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
@@ -15,7 +20,7 @@ class SecureCredApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       themeMode: ThemeMode.system,
       initialRoute: Prefs.getString(SharedPreferenceKeys.userToken).isEmpty
-          ? Routes.login
+          ? Routes.splash
             : Routes.home,
     );
   }
