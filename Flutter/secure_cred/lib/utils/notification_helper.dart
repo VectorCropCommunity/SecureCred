@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../src/securecred_app.dart';
+
 class NotificationHelper {
   static void showSnackBar({
     // required dynamic context,
