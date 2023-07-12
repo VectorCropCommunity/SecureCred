@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:random_avatar/random_avatar.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class ScreenProfile extends StatelessWidget {
+  const ScreenProfile({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        elevation: 0,
+        backgroundColor: Colors.transparent,
         title: const Text(
           'Profile',
           style: TextStyle(
@@ -14,12 +18,14 @@ class MyWidget extends StatelessWidget {
             fontSize: 15,
             fontFamily: 'Poppins',
             fontWeight: FontWeight.w600,
-            height: 20.03,
           ),
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.more_horiz),
+            icon: const Icon(
+              Icons.more_horiz,
+              color: Colors.black,
+            ),
             onPressed: () => {},
           )
         ],
@@ -31,75 +37,84 @@ class MyWidget extends StatelessWidget {
           children: [
             Flexible(
                 flex: 1,
-                child: Center(
-                    child: Container(
-                  width: MediaQuery.of(context).size.width / 3,
-                  height: MediaQuery.of(context).size.width / 3,
-                  child: Column(children: [
-                    const CircleAvatar(
-                      radius: 50,
-                    ),
-                    const Text(
-                      'Vector Crop',
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 18,
-                        fontFamily: 'Poppins',
-                        fontWeight: FontWeight.w600,
-                        height: 24.03,
+                child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child:
+                            RandomAvatar('saytoonz', height: 100, width: 100),
                       ),
-                    ),
-                    Text(
-                      'thevectorcrop@gmail.com',
-                      style: TextStyle(
-                        color: Colors.black.withOpacity(0.5699999928474426),
-                        fontSize: 12,
-                        fontFamily: 'Poppins',
-                        fontWeight: FontWeight.w500,
-                        height: 16.02,
+                      const Text(
+                        'Vector Crop',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 18,
+                          fontFamily: 'Poppins',
+                          fontWeight: FontWeight.w600,
+                        ),
                       ),
-                    )
-                  ]),
-                ))),
-            Flexible(
+                      Text(
+                        'thevectorcrop@gmail.com',
+                        style: TextStyle(
+                          color: Colors.black.withOpacity(0.5699999928474426),
+                          fontSize: 12,
+                          fontFamily: 'Poppins',
+                          fontWeight: FontWeight.w500,
+                        ),
+                      )
+                    ])),
+             Flexible(
                 flex: 2,
                 child: Container(
-                    decoration: const BoxDecoration(
+                    decoration:  const BoxDecoration(
+                        color: Colors.white,
                         borderRadius:
-                            BorderRadius.vertical(top: Radius.circular(20))),
-                    padding: const EdgeInsets.all(8),
-                    child: Column(children: [
-                      TextButton(
-                          child: const ListTile(
-                            leading: Icon(Icons.edit_square),
-                            title: Text('Edit Profile'),
-                            trailing: Icon(Icons.arrow_forward_ios),
-                          ),
-                          onPressed: () {}),
-                      TextButton(
-                          child: const ListTile(
-                            leading: Icon(Icons.edit_document),
-                            title: Text('Encryption Policy'),
-                            trailing: Icon(Icons.arrow_forward_ios),
-                          ),
-                          onPressed: () {}),
-                      TextButton(
-                          child: const ListTile(
-                            leading: Icon(Icons.person_pin),
-                            title: Text('User Management'),
-                            trailing: Icon(Icons.arrow_forward_ios),
-                          ),
-                          onPressed: () {}),
-                      const Divider(),
-                      TextButton(
-                          child: const ListTile(
-                            leading: Icon(Icons.logout_sharp),
-                            title: Text('Logout'),
-                            trailing: Icon(Icons.arrow_forward_ios),
-                          ),
-                          onPressed: () {}),
+                            BorderRadius.vertical(top: Radius.circular(30))),
+                    padding: const EdgeInsets.fromLTRB(16, 20, 16, 0),
+                    child: const Column(children: [
+                       ProfileButtons(title: "Edit Profile", icon: Icons.logout_sharp ),
+                       ProfileButtons(title: "Encryption Policy", icon: Icons.logout_sharp ),
+                       ProfileButtons(title: "User Management", icon: Icons.logout_sharp ),
+                       Divider(indent: 16, endIndent: 16,),
+                       ProfileButtons(title: "Logout", icon: Icons.logout_sharp ),
                     ])))
           ]),
     );
   }
 }
+
+class ProfileButtons extends StatelessWidget {
+  const ProfileButtons({
+    Key? key,
+    required this.title,
+    this.icon = Icons.arrow_forward_ios_sharp,
+  }) : super(key: key);
+
+  final String title;
+  final IconData icon;
+
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+      onPressed: () {},
+      child: ListTile(
+        leading: Container(
+          width: 50,
+          height: 50,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+            color: const Color.fromARGB(225, 242, 242, 242),
+          ),
+          child:  Center(
+            child: Icon(icon, color: Colors.black),
+          ),
+        ),
+        title: Text(title),
+        trailing: const Icon(Icons.arrow_forward_ios),
+      ),
+    );
+  }
+}
+

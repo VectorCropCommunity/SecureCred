@@ -19,7 +19,7 @@ class SecureCredApp extends StatelessWidget {
         brightness: Brightness.light,
       ),
       themeMode: ThemeMode.system,
-      initialRoute: Routes.splash,
+      initialRoute: Routes.profile,
     );
   }
 }
