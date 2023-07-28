@@ -3,6 +3,7 @@ import 'package:secure_cred/src/presentation/authentication/ScreenSignin.dart';
 import 'package:secure_cred/src/presentation/authentication/ScreenSignup.dart';
 import 'package:secure_cred/src/presentation/screen_onboarding/onboarding_screen1.dart.dart';
 import 'package:secure_cred/src/presentation/splashScreen/screen_splash.dart';
+import 'package:secure_cred/src/presentation/profile/profile_screen.dart';
 import '../src/presentation/screen_onboarding/onboarding_builder.dart.dart';
 import '../src/securecred_app.dart';
 
@@ -27,7 +28,7 @@ class Routes {
     onboarding: (_) => const ScreenOnboarding(),
     login: (_) => const ScreenSignin(),
     signup: (_) => const ScreenSignup(),
-    // profile: (_) => const ScreenProfile(),
+    profile: (_) => const ScreenProfile(),
     // forget_password: (_) => const ScreenForgetPassword(),
     // reset_password: (_) => const ScreenResetPassword(),
     // change_password: (_) => const ScreenChangePassword(),
