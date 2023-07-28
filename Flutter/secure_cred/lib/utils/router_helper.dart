@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:secure_cred/src/presentation/authentication/ScreenSignin.dart';
 import 'package:secure_cred/src/presentation/authentication/ScreenSignup.dart';
+import 'package:secure_cred/src/presentation/home/ScreemHome.dart';
 import 'package:secure_cred/src/presentation/screen_onboarding/onboarding_screen1.dart.dart';
 import 'package:secure_cred/src/presentation/splashScreen/screen_splash.dart';
 import 'package:secure_cred/src/presentation/profile/profile_screen.dart';
@@ -21,6 +22,7 @@ class Routes {
   static const String splash = '/splash';
   static const String onboardingStart = '/onboardingStart';
   static const String onboarding = '/onboarding';
+  // static const String bnb = '/bnb';
 
   static Map<String, Widget Function(BuildContext)> routes = {
     splash: (_) => const ScreenSplash(),
@@ -29,10 +31,12 @@ class Routes {
     login: (_) => const ScreenSignin(),
     signup: (_) => const ScreenSignup(),
     profile: (_) => const ScreenProfile(),
+    home: (_) => ScreenHome(),
+    // bnb: () => BottomNavigationWithCenteredFAB(),
     // forget_password: (_) => const ScreenForgetPassword(),
     // reset_password: (_) => const ScreenResetPassword(),
     // change_password: (_) => const ScreenChangePassword(),
-    // category: (_) => const ScreenCategory(),
+    // category: (_) => const ScreenCategory(),final
   };
 
   static pushPage(Widget page) {
