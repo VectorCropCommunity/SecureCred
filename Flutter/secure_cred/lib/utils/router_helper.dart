@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:secure_cred/src/presentation/authentication/ScreenSignin.dart';
-import 'package:secure_cred/src/presentation/authentication/ScreenSignup.dart';
+import 'package:secure_cred/src/presentation/authentication/screen_forget_password.dart';
+import 'package:secure_cred/src/presentation/authentication/screen_new_password.dart';
+import 'package:secure_cred/src/presentation/authentication/screen_otp_verification%20.dart';
+import 'package:secure_cred/src/presentation/authentication/screen_signin.dart';
+import 'package:secure_cred/src/presentation/authentication/screen_signup.dart';
 import 'package:secure_cred/src/presentation/screen_onboarding/onboarding_screen1.dart.dart';
 import 'package:secure_cred/src/presentation/splashScreen/screen_splash.dart';
 import '../src/presentation/screen_onboarding/onboarding_builder.dart.dart';
@@ -14,8 +17,8 @@ class Routes {
   static const String signup = '/signup';
   static const String profile = '/profile';
   static const String forgetPassword = '/forget_password';
-  static const String resetPassword = '/reset_password';
-  static const String changePassword = '/change_password';
+  static const String newPassword = '/new_password';
+  static const String otpVerification = '/otp_verification';
   static const String category = '/category';
   static const String splash = '/splash';
   static const String onboardingStart = '/onboardingStart';
@@ -25,12 +28,12 @@ class Routes {
     splash: (_) => const ScreenSplash(),
     onboardingStart: (_) => const ScreenStartOnboarding(),
     onboarding: (_) => const ScreenOnboarding(),
-    login: (_) => const ScreenSignin(),
-    signup: (_) => const ScreenSignup(),
+    login: (_) =>  const ScreenSignin(),
+    signup: (_) =>  const ScreenSignup(),
     // profile: (_) => const ScreenProfile(),
-    // forget_password: (_) => const ScreenForgetPassword(),
-    // reset_password: (_) => const ScreenResetPassword(),
-    // change_password: (_) => const ScreenChangePassword(),
+    forgetPassword: (_) => const ScreenForgotPassword(),
+    newPassword: (_) => const ScreenNewPassword(),
+    otpVerification: (_) => const ScreenOTPVerification(),
     // category: (_) => const ScreenCategory(),
   };
 

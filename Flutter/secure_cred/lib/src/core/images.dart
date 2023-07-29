@@ -6,6 +6,8 @@ class KImage {
   static String threeDotIconImage1 = "asset/Group 3.png";
   static String threeDotIconImage2 = "asset/Group 28.png";
   static String threeDotIconImage3 = "asset/Group 280 .png";
+  static String loginsvg = "asset/login.svg";
+  static String login = "asset/login.png";
 } 
 
 

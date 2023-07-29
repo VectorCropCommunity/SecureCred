@@ -10,10 +10,12 @@ class SecureCredApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Secure Cred",
+      
       navigatorKey: navigatorKey,
       routes: Routes.routes,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'Poppins',
         // primaryColor: const Color.fromRGBO(59, 76, 154, 1),
         // primarySwatch: Colors.blue,
         brightness: Brightness.light,
