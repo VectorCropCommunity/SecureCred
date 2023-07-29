@@ -4,8 +4,10 @@ import 'package:secure_cred/src/presentation/authentication/screen_new_password.
 import 'package:secure_cred/src/presentation/authentication/screen_otp_verification%20.dart';
 import 'package:secure_cred/src/presentation/authentication/screen_signin.dart';
 import 'package:secure_cred/src/presentation/authentication/screen_signup.dart';
+import 'package:secure_cred/src/presentation/home/ScreemHome.dart';
 import 'package:secure_cred/src/presentation/screen_onboarding/onboarding_screen1.dart.dart';
 import 'package:secure_cred/src/presentation/splashScreen/screen_splash.dart';
+import 'package:secure_cred/src/presentation/profile/profile_screen.dart';
 import '../src/presentation/screen_onboarding/onboarding_builder.dart.dart';
 import '../src/securecred_app.dart';
 
@@ -23,15 +25,17 @@ class Routes {
   static const String splash = '/splash';
   static const String onboardingStart = '/onboardingStart';
   static const String onboarding = '/onboarding';
+  // static const String bnb = '/bnb';
 
   static Map<String, Widget Function(BuildContext)> routes = {
     splash: (_) => const ScreenSplash(),
     onboardingStart: (_) => const ScreenStartOnboarding(),
     onboarding: (_) => const ScreenOnboarding(),
-    login: (_) =>  const ScreenSignin(),
-    signup: (_) =>  const ScreenSignup(),
-    // profile: (_) => const ScreenProfile(),
-    forgetPassword: (_) => const ScreenForgotPassword(),
+    login: (_) => const ScreenSignin(),
+    signup: (_) => const ScreenSignup(),
+    profile: (_) => const ScreenProfile(),
+    home: (_) => ScreenHome(),
+   forgetPassword: (_) => const ScreenForgotPassword(),
     newPassword: (_) => const ScreenNewPassword(),
     otpVerification: (_) => const ScreenOTPVerification(),
     // category: (_) => const ScreenCategory(),

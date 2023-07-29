@@ -27,8 +27,9 @@ class _ScreenSplashState extends State<ScreenSplash> {
           progressValue += 0.05;
         } else {
           timer.cancel();
+
           final onBoardingViewed = false;
-          // Prefs.getBool(SharedPreferenceKeys.onBoardingViewed);
+          Prefs.getBool(SharedPreferenceKeys.onBoardingViewed);
           Routes.pushReplacementNamed(
             onBoardingViewed
                 ? Prefs.getString(SharedPreferenceKeys.userToken).isEmpty
